@@ -11,7 +11,7 @@ public class OOPSBannerUC5 {
             String.join(" ", " *   * ", " *   * ", " ***** ", " ***** "),
             String.join(" ", " *   * ", " *   * ", " *     ", "     * "),
             String.join(" ", " *   * ", " *   * ", " *     ", "     * "),
-            String.join(" ", " ***** ", " ***** ", " *     ", " **cd*** ")
+            String.join(" ", " ***** ", " ***** ", " *     ", " ***** ")
 
         };
 
