@@ -1,0 +1,23 @@
+public class OOPSBannerUC5 {
+
+    public static void main(String[] args) {
+
+        // Inline array initialization using String.join()
+        String[] lines = {
+
+            String.join(" ", " ***** ", " ***** ", " ***** ", " ***** "),
+            String.join(" ", " *   * ", " *   * ", " *   * ", " *     "),
+            String.join(" ", " *   * ", " *   * ", " *   * ", " *     "),
+            String.join(" ", " *   * ", " *   * ", " ***** ", " ***** "),
+            String.join(" ", " *   * ", " *   * ", " *     ", "     * "),
+            String.join(" ", " *   * ", " *   * ", " *     ", "     * "),
+            String.join(" ", " ***** ", " ***** ", " *     ", " **cd*** ")
+
+        };
+
+        // Print using enhanced for loop
+        for (String line : lines) {
+            System.out.println(line);
+        }
+    }
+}
